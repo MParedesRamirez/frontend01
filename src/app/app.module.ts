@@ -25,7 +25,9 @@ import { AddDistritoComponent } from './Components/Distrito/add-distrito/add-dis
 import { EditDistritoComponent } from './Components/Distrito/edit-distrito/edit-distrito.component';
 import { TarifarioComponent } from './Components/Tarifario/tarifario.component';
 
-
+//INICIO SERVICIOS
+import { CargarScriptService } from './app.componentScript';
+// FIN SERVICIOS
 
 
 @NgModule({
@@ -49,6 +51,7 @@ import { TarifarioComponent } from './Components/Tarifario/tarifario.component';
     GoogleMapsModule
   ],
   providers: [
+    CargarScriptService
   ],
   bootstrap: [AppComponent]
 })
